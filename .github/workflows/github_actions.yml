@@ -17,7 +17,7 @@ jobs:
           image_name: rebom-backend
           rearm_api_id: ${{ secrets.REARM_REBOM_BACKEND_API_ID }}
           rearm_api_key: ${{ secrets.REARM_REBOM_BACKEND_API_KEY }}
-          rearm_api_url: https://demo.rearmhq.com
+          rearm_api_url: https://dev.rearmhq.com
           path: backend
           enable_sbom: 'true'
           source_code_sbom_type: 'npm'
